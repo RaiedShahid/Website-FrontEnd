@@ -1,0 +1,85 @@
+.App {
+	text-align: center;
+}
+.Scrolling {
+	overflow-x: hidden;
+}
+body {
+	overflow-x: hidden;
+}
+.App-logo {
+	height: 40vmin;
+	pointer-events: none;
+}
+.cardj {
+	/* Add shadows to create the "card" effect  */
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	transition: 0.3s;
+}
+
+/* On mouse-over, add a deeper shadow */
+
+.cardj:hover {
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.8);
+}
+#navbar {
+	/* Black background color */
+	position: fixed; /* Make it stick/fixed */
+	top: 0; /* Stay on top */
+	width: 100%; /* Full width */
+	transition: top 0.3s; /* Transition effect when sliding down (and up) */
+}
+.footer {
+	left: 0;
+	margin-bottom: 0;
+	width: 100%;
+	height: 8rem;
+	background-color: lightgray;
+	text-align: center;
+}
+
+.card-img-top {
+	width: 100%;
+	height: 15vw;
+	/* height: 250px; */
+	object-fit: cover;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+	.App-logo {
+		animation: App-logo-spin infinite 20s linear;
+	}
+}
+
+.App-header {
+	background-color: #282c34;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-size: calc(10px + 2vmin);
+	color: white;
+}
+
+.App-link {
+	color: #61dafb;
+}
+img {
+	object-fit: cover;
+	object-position: center;
+}
+
+.profileimg {
+	border-radius: 50%;
+	text-align: center;
+	display: block;
+}
+@keyframes App-logo-spin {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}
